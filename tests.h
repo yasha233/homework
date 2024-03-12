@@ -6,8 +6,10 @@ void test() {
 	std::cout << "test ok" << std::endl;
 }
 void test2(){
-	assert(filter( h={3,5,4,8},sqr )==({4,8}));
-	assert(map(n={1,2,4},isEven)==({1,4,16}));
+	std::vector<int> h={3,5,4,8};
+	std::vector<int> n={1,2,4};
+	assert(filter( h,sqr )==({4,8}));
+	assert(map(n,isEven)==({1,4,16}));
 	std::cout << "test filter & map ok" << std::endl;
 }
 namespace funct2{
