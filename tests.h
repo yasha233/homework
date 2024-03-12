@@ -12,8 +12,3 @@ void testIsEven() {
 	assert(funct2::isEven(13) == false);
 	std::cout << "isEven ok" << std::endl;
 }
-int main()
-{
-	numb1::test();
-	funct2::testIsEven();
-}
