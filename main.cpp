@@ -5,7 +5,7 @@ int main()
 	setlocale(LC_ALL, "ru");
 	std::vector<int> h = { 3,5,4,8 };
 	auto results = numb1::filter(h, numb1::isEven);
-	std::cout << "Ğåçóëüòàòû ïğîâåğêè íà ÷åòíîñòü: ";
+	std::cout << "ÃÃ¥Ã§Ã³Ã«Ã¼Ã²Ã Ã²Ã» Ã¯Ã°Ã®Ã¢Ã¥Ã°ÃªÃ¨ Ã­Ã  Ã·Ã¥Ã²Ã­Ã®Ã±Ã²Ã¼: ";
 	for (auto res : results)
 	{
 		std::cout << res << " ";
@@ -15,13 +15,13 @@ int main()
 
 	std::vector<int> n = {1,2,4};
 	auto results2 = numb1::map(n,numb1::sqr);
-	std::cout << "Ğåçóëüòàòû âîçâåäåíèÿ â ñòåïåíü 2: ";
+	std::cout << "ÃÃ¥Ã§Ã³Ã«Ã¼Ã²Ã Ã²Ã» Ã¢Ã®Ã§Ã¢Ã¥Ã¤Ã¥Ã­Ã¨Ã¿ Ã¢ Ã±Ã²Ã¥Ã¯Ã¥Ã­Ã¼ 2: ";
 	for (auto res : results2)
 	{
 		std::cout << res << " ";
 	}
 	std::cout << std::endl;
-funct2::Game();
+//funct2::Game();
 funct2::testIsEven();
 return 0;
 }
