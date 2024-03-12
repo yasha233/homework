@@ -6,8 +6,8 @@ void test() {
 	std::cout << "test ok" << std::endl;
 }
 void test2(){
-	assert(filter( {3,5,4,8},sqr() )==({4,8}));
-	assert(map({1,2,4},isEven())==({1,4,16}));
+	assert(filter( {3,5,4,8},sqr )==({4,8}));
+	assert(map({1,2,4},isEven)==({1,4,16}));
 	std::cout << "test filter & map ok" << std::endl;
 }
 namespace funct2{
