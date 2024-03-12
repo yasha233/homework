@@ -14,6 +14,7 @@ void test2(){
 	assert(map(n,sqr)==l);
 	std::cout << "test filter & map ok" << std::endl;
 }
+}
 namespace funct2{
 void testIsEven() {
 	assert(isEven(4) == true);
