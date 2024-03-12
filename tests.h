@@ -8,8 +8,8 @@ void test() {
 void test2(){
 	std::vector<int> h={3,5,4,8};
 	std::vector<int> n={1,2,4};
-	assert(filter( h,isEven )==(4,8));
-	assert(map(n,sqr)==(1,4,16));
+	assert(filter( h,isEven )=={4,8});
+	assert(map(n,sqr)=={1,4,16});
 	std::cout << "test filter & map ok" << std::endl;
 }
 namespace funct2{
