@@ -5,7 +5,7 @@ int main()
 	setlocale(LC_ALL, "ru");
 	std::vector<int> h = { 3,5,4,8 };
 	auto results = numb1::filter(h, numb1::isEven);
-	std::cout << "Ðåçóëüòàòû ïðîâåðêè íà ÷åòíîñòü: ";
+	std::cout <<" Results: ";
 	for (auto res : results)
 	{
 		std::cout << res << " ";
@@ -15,7 +15,7 @@ int main()
 
 	std::vector<int> n = {1,2,4};
 	auto results2 = numb1::map(n,numb1::sqr);
-	std::cout << "Ðåçóëüòàòû âîçâåäåíèÿ â ñòåïåíü 2: ";
+	std::cout << "Results 2: ";
 	for (auto res : results2)
 	{
 		std::cout << res << " ";
