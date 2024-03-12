@@ -1,4 +1,4 @@
-#include<Header.h>
+#include<function.h>
 
 void test() {
 	assert(numb1::sqr(3) == 9);
