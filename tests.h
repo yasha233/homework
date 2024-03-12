@@ -5,6 +5,10 @@ void test() {
 	assert(isEven(4) == true);
 	std::cout << "test ok" << std::endl;
 }
+void test(){
+	assert(filter( 3,5,4,8 )==(4,8));
+	assert(map(1,2,4)==(1,4,16));
+	std::cout << "test filter & map ok" << std::endl;
 }
 namespace funct2{
 void testIsEven() {
